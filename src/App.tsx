@@ -152,12 +152,12 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-6 py-8">
         <div className="space-y-10">
           {/* ============================================================================== */}
-          {/* BAGIAN 1: HEADER & DISTRIBUSI DATASET */}
+          {/* DISTRIBUSI DATASET */}
           {/* ============================================================================== */}
           <section className="space-y-4" id="section-dataset-distribution">
             <div className="border-b border-slate-200 pb-3">
               <h2 className="text-lg font-bold text-slate-900">
-                Bagian 1: Distribusi Dataset Pelatihan
+                Distribusi Dataset Pelatihan
               </h2>
               <p className="text-xs text-slate-500 mt-0.5">
                 Proporsi kelas ulasan aplikasi MyMRTJ yang diekstrak dari metrics_indobert.json
@@ -265,12 +265,12 @@ export default function App() {
             </section>
 
             {/* ============================================================================== */}
-            {/* BAGIAN 2: PERBANDINGAN PERFORMA MODEL (OVERVIEW) */}
+            {/* PERBANDINGAN PERFORMA MODEL (OVERVIEW) */}
             {/* ============================================================================== */}
             <section className="space-y-4" id="section-model-comparison">
               <div className="border-b border-slate-200 pb-3">
                 <h2 className="text-lg font-bold text-slate-900">
-                  Bagian 2: Perbandingan Performa Model (Overview)
+                  Perbandingan Performa Model (Overview)
                 </h2>
                 <p className="text-xs text-slate-500 mt-0.5">
                   Komparasi metrik Akurasi dan F1-Score (Macro) antara IndoBERT dan IndoRoBERTa
@@ -396,12 +396,12 @@ export default function App() {
             </section>
 
             {/* ============================================================================== */}
-            {/* BAGIAN 3: ANALISIS MENDALAM (TABS) */}
+            {/* ANALISIS MENDALAM (TABS) */}
             {/* ============================================================================== */}
             <section className="space-y-4" id="section-deep-dive">
               <div className="border-b border-slate-200 pb-3">
                 <h2 className="text-lg font-bold text-slate-900">
-                  Bagian 3: Analisis Mendalam Kinerja Model
+                  Analisis Mendalam Kinerja Model
                 </h2>
                 <p className="text-xs text-slate-500 mt-0.5">
                   Visualisasi kurva training loss vs eval loss serta Confusion Matrix per model
@@ -621,12 +621,12 @@ export default function App() {
             </section>
 
             {/* ============================================================================== */}
-            {/* BAGIAN 4: UJI COBA MODEL (INFERENCE) */}
+            {/* UJI COBA MODEL (INFERENCE) */}
             {/* ============================================================================== */}
             <section className="space-y-4" id="section-inference-testing">
               <div className="border-b border-slate-200 pb-3">
                 <h2 className="text-lg font-bold text-slate-900">
-                  Bagian 4: Uji Coba Model (Inference)
+                  Uji Coba Model (Inference)
                 </h2>
                 <p className="text-xs text-slate-500 mt-0.5">
                   Simulasi komparasi prediksi langsung antara IndoBERT dan IndoRoBERTa secara berdampingan (side-by-side)

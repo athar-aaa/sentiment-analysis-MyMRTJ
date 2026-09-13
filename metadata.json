@@ -1,0 +1,8 @@
+{
+  "name": "Dashboard Analisis Sentimen MyMRTJ",
+  "description": "Dashboard evaluasi dan komparasi performa model IndoBERT dan IndoRoBERTa untuk analisis sentimen ulasan aplikasi MyMRTJ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

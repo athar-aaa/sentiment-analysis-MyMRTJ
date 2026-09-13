@@ -20,16 +20,11 @@ const LABELS = ['Negatif', 'Netral', 'Positif'] as const;
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<'indobert' | 'indoroberta'>('indobert');
-  const [userInput, setUserInput] = useState<string>(
-    'Aplikasi MyMRTJ sangat membantu dan pembelian tiket QR MRT sangat cepat lancar!'
-  );
+  const [userInput, setUserInput] = useState<string>('');
   const [inferenceResult, setInferenceResult] = useState<{
     bert: { label: string; confidence: number; probs: number[] };
     roberta: { label: string; confidence: number; probs: number[] };
-  } | null>({
-    bert: { label: 'Positif', confidence: 0.9412, probs: [0.031, 0.0278, 0.9412] },
-    roberta: { label: 'Positif', confidence: 0.9528, probs: [0.024, 0.0232, 0.9528] }
-  });
+  } | null>(null);
 
   // Data Distribusi Dataset dari metrics_indobert.json
   const distData = useMemo(() => {
